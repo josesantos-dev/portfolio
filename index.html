@@ -4,24 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>José Santos Dev</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <h1> Eleve seu negócio digital a outro nível <span>com um Front-end de qualidade!</span> </h1>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="curriculo.html" class="cabecalho__menu__link">Curriculo</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
 
-        <p>Olá! Sou José Luiz, desenvolvedor Front-end com especialidade em React, HTML, CSS, JavaScript e Angular.
-            Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo"> Eleve seu negócio digital a outro nível <strong
+                    class="title-destacado">com um Front-end de
+                    qualidade!</strong> </h1>
 
-        <a href="#">Instagram</a>
-        <a href="#">GitHub</a>
+            <p class="apresentacao__conteudo__texto">Olá! Sou José Luiz, desenvolvedor Front-end com especialidade em
+                React, HTML, CSS, JavaScript e Angular.
+                Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
 
-        <img src="EU.png" alt="Minha foto ">
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="#" target="_blank">
+                    <img src="assets/instagram.png" alt="Logo do instagram">
+                    Instagram
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/josesantos-dev" target="_blank">
+                    <img src="assets/github.png" alt="Logo do github">
+                    GitHub
+                </a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/josetech/" target="_blank">
+                    <img src="assets/linkedin.png" alt="Logo do linkedin">
+                    Linkedin
+                </a>
+            </div>
+
+        </section>
+
+            <img class="apresentacao__imagem" src="assets/EU.png" alt="Minha foto ">
+        
     </main>
-    <footer></footer>
+
+
+    
+    <footer class="rodape">
+        <p>Desenvolvido por José Santos</p>
+    </footer>
 </body>
 
 </html>
